@@ -1,0 +1,75 @@
+#fram {
+    width: 85%;
+    height: 600px;
+margin: auto;
+  }
+  iframe{
+    width: 65%;
+    height: 500px;
+    margin-top: 30px;
+  }
+ 
+  h4{
+    width: 50%;
+  }
+  #top,#top>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+hr{
+    border: 0.1px solid gray;
+    margin-left: 30px;
+
+}
+#top>div{
+    margin: 0.5vh;
+}  
+       
+#top img{
+    height: 45px;
+    width: 90%;
+    cursor: pointer;
+}
+#top>div:nth-child(1){
+    
+    width: 10%;
+}
+#top>div:nth-child(2){
+   
+    width: 50%;
+}
+#top>div:nth-child(3){
+   font-size: 23px;
+    width: 25%;
+}
+
+#top>div:nth-child(3)>img{
+    cursor: pointer;
+    width: 15%;
+    border-radius: 100px;
+}
+.example{
+    display: flex;
+
+}
+input{
+    margin-left: 100px;
+    margin-right: 5px;
+    /* width: 150px; */
+    font-size: 18px;
+    height: 25px;
+    width: 70%;
+}
+button{
+    margin-right: 100px;
+    height: 32px;
+    width: 40px;
+    border: none;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
